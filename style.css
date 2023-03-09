@@ -2,7 +2,7 @@
 
 :root {
   --cyan: hsl(193, 38%, 86%);
-  --neon-green: hsl(150, 100%, 66%);
+  --neon-blue: hsl(178, 100%, 66%);
   --grayish-blue: hsl(217, 19%, 38%);
   --dark-grayish-blue: hsl(217, 19%, 24%);
   --dark-blue: hsl(218, 23%, 16%);
@@ -81,7 +81,7 @@ button::after {
 }
 
 .text-accent {
-  color: var(--neon-green);
+  color: var(--neon-blue);
 }
 
 .text-dark-300 {
@@ -93,7 +93,7 @@ button::after {
 }
 
 .bg-accent {
-  background-color: var(--neon-green);
+  background-color: var(--neon-blue);
 }
 
 .bg-dark-300 {
@@ -221,11 +221,11 @@ body {
 }
 
 .shuffle-button:hover {
-  box-shadow: 0 0 2.5rem var(--neon-green);
+  box-shadow: 0 0 2.5rem var(--neon-blue);
 }
 
 .shuffle-button:focus {
-  box-shadow: 0 0 2.5rem var(--neon-green);
+  box-shadow: 0 0 2.5rem var(--neon-blue);
 }
 
 button:hover::after {
