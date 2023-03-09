@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+  <script src="app.js" defer></script>
+  <title>Frontend Mentor | Advice generator app</title>
+</head>
+
+<body class="bg-dark-500">
+
+  <section id="advice-generator" class="outer-container bg-dark-400">
+    <div class="container text-center">
+
+      <p id="title" class="text-accent uppercase ls-800 fs-300">
+        advice #<span id="title-number"></span>
+      </p>
+
+      <q id="advice" class="block text-cyan fs-700 "></q>
+
+      <picture class="divider text-cyan block">
+        <source srcset="./images/pattern-divider-desktop.svg" media="(min-width: 400px)">
+        <img class="center full-width" src="./images/pattern-divider-mobile.svg" alt="divider">
+      </picture>
+
+      <button id="shuffle-button" class="shuffle-button bg-accent">
+        <span class="sr-only">Shuffle Button</span>
+      </button>
+    </div>
+  </section>
+</body>
+
+</html>
